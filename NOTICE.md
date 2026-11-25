@@ -26,7 +26,8 @@ HeadChicken still runs terminals and agents through
   shares files with an installed Herdr.
 - Its own name, icon and bundle id (`scripts/package-headchicken`,
   `assets/icons/HeadChicken.icns`, visible text in `defaults/frame`).
-- Built from source (`.github/workflows/headchicken-mac.yml`): no update checks
+- Built from source for Apple silicon Macs, Intel Macs and Windows
+  (`.github/workflows/headchicken.yml`, `scripts/package-headchicken`): no update checks
   against Herdr's release server and no usage reports.
 
 Files changed from Herdr carry a "Modified by HeadChicken" line at the top.
